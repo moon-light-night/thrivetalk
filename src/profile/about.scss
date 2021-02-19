@@ -1,0 +1,163 @@
+@import '@/profile/variables.scss';
+
+.pink {
+  background-color: #ffe2de;
+}
+.green {
+  background-color: #c4e769;
+}
+.blue {
+  background-color: #62d0df;
+}
+.dark-blue {
+  background-color: #0052c1;
+}
+.deep-blue {
+  background-color: #22356f;
+}
+.gray {
+  background-color: #dee1ff;
+}
+.purple {
+  background-color: #8f00ff;
+}
+ul {
+  padding-left: 0;
+}
+.straw-img {
+  background: url('~@/assets/straw.png');
+}
+
+.about {
+  &__header-info {
+    display: flex;
+    color: rgba(34, 53, 111, 1);
+    margin-top: 150px;
+  }
+  &__header-name {
+    padding-left: 100px;
+    position: absolute;
+  }
+  &__header-desc {
+    display: flex;
+    width: 500px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    margin: 0 auto;
+  }
+  &__header-text {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    color: rgba(34, 53, 111, 0.5);
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+  }
+  &__header-cards {
+    display: flex;
+    margin-bottom: 120px;
+  }
+  &__header-card {
+    width: 100%;
+    height: 250px;
+    color: white;
+  }
+  &__list {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__header-list-li--empty {
+    width: 80%;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+  }
+  &__header-list-li {
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    font-size: $big-font;
+    margin: 0 auto;
+  }
+  &__cards-first-row {
+    display: flex;
+  }
+  &__card {
+    width: 100%;
+    height: 420px;
+  }
+  &__card-list-li--empty {
+    padding-top: 80px;
+    width: 80%;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+  }
+  &__card-list-li {
+    padding-left: 50px;
+    font-size: $big-font;
+    color: white;
+    width: 157px;
+  }
+  &__cards-second-row {
+    display: flex;
+  }
+  &__descs-first-row {
+    display: flex;
+    margin-top: 77px;
+  }
+  &__descs-second-row {
+    display: flex;
+  }
+  &__desc-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 240px;
+    color: rgba(34, 53, 111, 1);
+  }
+  &__desc-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    font-size: 28px;
+  }
+  &__desc-text {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    font-size: $small-font;
+  }
+  &__fact {
+    margin-top: 40px;
+    display: flex;
+  }
+  &__fact-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgba(34, 53, 111, 1);
+  }
+  &__fact-header {
+    padding-left: 100px;
+    font-size: $small-font;
+    padding-bottom: 70px;
+  }
+  &__fact-body {
+    width: 70%;
+    padding-left: 100px;
+    font-size: $big-font;
+    span {
+      color: #62d0df;
+    }
+  }
+  &__fact-footer {
+    padding-left: 100px;
+    font-size: $small-font;
+    color: rgba(250, 182, 62, 1);
+  }
+}

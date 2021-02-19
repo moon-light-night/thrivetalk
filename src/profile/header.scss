@@ -94,4 +94,27 @@ li {
       width: 650px;
     }
   }
+  &__suggest {
+    display: flex;
+    justify-content: space-between;
+    height: 604px;
+    background-color: rgba(98, 208, 223, 1);
+    color: white;
+  }
+  &__suggest-content {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  &__suggest-title {
+    margin-bottom: 70px;
+    font-size: 36px;
+    line-height: 27px;
+  }
+  &__suggest-text {
+    font-size: 24px;
+    line-height: 35px;
+  }
 }
