@@ -1,0 +1,97 @@
+@import '@/profile/variables.scss';
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+li {
+  list-style-type: none;
+}
+
+.header {
+  background-color: #f4f9e2;
+  &__nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+  }
+  &__nav-name {
+    display: flex;
+    align-items: center;
+    color: #62d0df;
+    font-size: $medium-font;
+  }
+  &__nav-list {
+    display: flex;
+    color: #22356f;
+  }
+  &__nav-list-li {
+    padding: 0 20px;
+    font-size: $small-font;
+  }
+  &__nav-list-li--active {
+    color: red;
+  }
+  &__nav-btn {
+    background-color: #62d0df;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    font-size: $small-font;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 8.5%;
+    width: 470px;
+  }
+  &__desc-name {
+    color: #62d0df;
+    font-size: $medium-font;
+  }
+  &__desc-title {
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+
+    color: #22356f;
+  }
+  &__desc-content {
+    font-size: $medium-font;
+    color: #22356f;
+    line-height: 42px;
+  }
+  &__desc-recs {
+    display: flex;
+  }
+  &__desc-recs-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9b640;
+    color: white;
+    margin-right: 38px;
+    width: 150px;
+    height: 50px;
+  }
+  &__desc-recs-disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9b640;
+    width: 150px;
+    height: 50px;
+  }
+  &__img {
+    display: flex;
+    img {
+      width: 650px;
+    }
+  }
+}
