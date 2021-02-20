@@ -149,6 +149,9 @@ li {
     height: 604px;
     background-color: rgba(98, 208, 223, 1);
     color: white;
+    @media (max-width: 900px) {
+      margin-top: 20px;
+    }
   }
   &__suggest-content {
     width: 555px;
