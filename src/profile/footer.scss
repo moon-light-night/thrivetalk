@@ -1,0 +1,17 @@
+@import '@/profile/variables.scss';
+
+.footer {
+  &__copyright {
+    display: flex;
+    height: 80px;
+    margin-left: 15%;
+    color: white;
+  }
+  &__copyright-item {
+    font-size: $small-font;
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+    font-size: $small-font;
+  }
+}

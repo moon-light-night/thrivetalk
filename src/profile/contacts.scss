@@ -1,0 +1,52 @@
+@import '@/profile/variables.scss';
+
+.contacts {
+  &__header {
+    display: flex;
+  }
+  &__header-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+  }
+  &__header-uptitle {
+    font-size: $small-font;
+    width: 570px;
+    margin-bottom: 100px;
+  }
+  &__header-title {
+    font-size: 64px;
+    line-height: 94px;
+    width: 570px;
+  }
+  &__header-text {
+    font-size: $big-font;
+    line-height: 53px;
+    width: 570px;
+  }
+  &__header-footer {
+    color: rgba(98, 208, 223, 1) !important;
+    width: 570px;
+  }
+  &__footer {
+    display: flex;
+    color: rgba(34, 53, 111, 1);
+  }
+  &__footer-content {
+    display: flex;
+  }
+  &__footer-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 7%;
+    font-size: $small-font;
+  }
+  &__footer-title {
+    margin-bottom: 50px;
+  }
+}
