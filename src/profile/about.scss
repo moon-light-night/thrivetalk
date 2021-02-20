@@ -12,10 +12,18 @@ ul {
     display: flex;
     color: rgba(34, 53, 111, 1);
     margin-top: 150px;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   }
   &__header-name {
     padding-left: 100px;
     position: absolute;
+    @media (max-width: 900px) {
+      position: relative;
+      margin: 0 auto;
+      padding-left: 0;
+    }
   }
   &__header-desc {
     display: flex;
@@ -23,6 +31,9 @@ ul {
     line-height: 34px;
     letter-spacing: 0.005em;
     margin: 0 auto;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
   }
   &__header-text {
     margin: 0 auto;
@@ -36,6 +47,9 @@ ul {
   &__header-cards {
     display: flex;
     margin-bottom: 120px;
+    @media (max-width: 950px) {
+      flex-wrap: wrap;
+    }
   }
   &__header-card {
     width: 100%;
@@ -63,6 +77,9 @@ ul {
   }
   &__cards-first-row {
     display: flex;
+    @media (max-width: 650px) {
+      flex-wrap: wrap;
+    }
   }
   &__card {
     width: 100%;
@@ -82,13 +99,22 @@ ul {
   }
   &__cards-second-row {
     display: flex;
+    @media (max-width: 650px) {
+      flex-wrap: wrap;
+    }
   }
   &__descs-first-row {
     display: flex;
     margin-top: 77px;
+    @media (max-width: 920px) {
+      flex-wrap: wrap;
+    }
   }
   &__descs-second-row {
     display: flex;
+    @media (max-width: 920px) {
+      flex-wrap: wrap;
+    }
   }
   &__desc-group {
     display: flex;
@@ -113,6 +139,9 @@ ul {
   &__fact {
     margin-top: 40px;
     display: flex;
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
   }
   &__fact-content {
     width: 100%;
@@ -120,11 +149,26 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     color: rgba(34, 53, 111, 1);
+    margin-bottom: 30px;
+  }
+  &__fact-img {
+    @media (max-width: 920px) {
+      margin: 0 auto;
+    }
+    img {
+      @media (max-width: 500px) {
+        width: 100%;
+        height: 500px;
+      }
+    }
   }
   &__fact-header {
     padding-left: 100px;
     font-size: $small-font;
     padding-bottom: 70px;
+    @media (max-width: 800px) {
+      padding-left: 0;
+    }
   }
   &__fact-body {
     width: 70%;
@@ -133,10 +177,18 @@ ul {
     span {
       color: #62d0df;
     }
+    @media (max-width: 800px) {
+      padding-left: 0;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
   }
   &__fact-footer {
     padding-left: 100px;
     font-size: $small-font;
     color: rgba(250, 182, 62, 1);
+    @media (max-width: 800px) {
+      padding-left: 0;
+    }
   }
 }
