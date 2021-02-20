@@ -10,9 +10,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### View
 ```
-npm run build
+https://thrive-talk.web.app/
 ```
 
 ### Customize configuration
