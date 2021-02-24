@@ -8,6 +8,7 @@
     width: 100%;
     display: flex;
     color: white;
+    background-color: $deep-blue;
     @media (max-width: 430px) {
       padding: 5px;
     }
@@ -80,7 +81,6 @@
   }
   &__footer-img-wrap {
     @media (max-width: 870px) {
-      // margin: 0 auto;
       img {
         width: 100%;
       }
@@ -96,10 +96,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 7%;
     font-size: $small-font;
-    @media (max-width: 960px) {
+    @media (max-width: 1130px) {
       font-size: 12px;
     }
     @media (max-width: 870px) {
@@ -112,5 +112,12 @@
   }
   &__footer-title {
     margin-bottom: 30px;
+    margin-top: 58px;
+  }
+  &__footer-text {
+    @media (max-width: 870px) {
+      text-align: center;
+      margin: 0 10px;
+    }
   }
 }

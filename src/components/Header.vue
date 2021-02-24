@@ -3,7 +3,7 @@
     <div class="header__nav">
       <div class="header__nav-name">Thrivetalk</div>
       <ul class="header__nav-list">
-        <li class="header__nav-list-li header__nav-list-li--active">Home</li>
+        <li class="header__nav-list-li header__nav-list-li_active">Home</li>
         <li class="header__nav-list-li">About</li>
         <li class="header__nav-list-li">Services</li>
         <li class="header__nav-list-li">Blog</li>
@@ -22,12 +22,12 @@
           even just caring for yourself more.
         </div>
         <div class="header__desc-recs">
-          <div class="header__desc-recs-active">WHO AM I</div>
-          <div class="header__desc-recs-disabled">WHAT DO I DO</div>
+          <div class="header__desc-recs_active">WHO AM I</div>
+          <div class="header__desc-recs_disabled">WHAT DO I DO</div>
         </div>
       </div>
       <div class="header__img"><img src="@/assets/header-img.png" /></div>
-      <div class="header__img--empty"><img src="@/assets/emptyrec.png" /></div>
+      <div class="header__img_empty"><img src="@/assets/emptyrec.png" /></div>
     </div>
   </div>
 </template>

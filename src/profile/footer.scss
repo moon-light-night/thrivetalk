@@ -1,6 +1,7 @@
 @import '@/profile/variables.scss';
 
 .footer {
+  background-color: $blue;
   &__copyright {
     display: flex;
     height: 80px;

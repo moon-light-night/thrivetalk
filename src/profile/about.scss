@@ -5,12 +5,13 @@
     display: flex;
     color: rgba(34, 53, 111, 1);
     margin-top: 150px;
+    background-color: white;
     @media (max-width: 900px) {
       flex-direction: column;
     }
   }
   &__header-name {
-    padding-left: 8vw;
+    padding-left: 5vw;
     position: absolute;
     @media (max-width: 900px) {
       position: relative;
@@ -89,15 +90,63 @@
       margin-right: 20px;
     }
   }
-  &__cards-first-row {
+  &__cards {
     display: flex;
-    @media (max-width: 1000px) {
-      flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap;
+    @media (max-width: 600px) {
+      flex-direction: column;
     }
   }
   &__card {
-    width: 100%;
+    width: 33.33%;
     height: 420px;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    &:nth-child(1) {
+      background-color: $pink;
+    }
+    &:nth-child(2) {
+      background-color: $green;
+    }
+    &:nth-child(3) {
+      background-image: url('~@/assets/straw.png');
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    &:nth-child(4) {
+      background-color: $dark-blue;
+    }
+    &:nth-child(5) {
+      background-color: $deep-blue;
+    }
+    &:nth-child(6) {
+      background-color: $purple;
+    }
+  }
+  &__card-wrap {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid white;
+    width: 80%;
+    align-items: center;
+    margin: 72px auto;
+    img {
+      width: 9px;
+      height: 9px;
+      margin-right: 10px;
+      margin-top: 30px;
+      display: flex;
+      align-self: flex-start;
+    }
+    p {
+      color: white;
+      font-size: 32px;
+      margin-top: 10px;
+      width: 210px;
+    }
   }
   &__card-list-li--empty {
     padding-top: 80px;
@@ -105,6 +154,8 @@
     border-bottom: 2px solid white;
     margin: 0 auto;
   }
+
+  ///////////////////////////////////////////////
   &__card-list-li {
     padding-left: 34px;
     font-size: $big-font;
@@ -130,48 +181,51 @@
       margin: 0 auto;
     }
   }
-  &__cards-second-row {
+  &__descs {
     display: flex;
-    @media (max-width: 1000px) {
-      flex-wrap: wrap;
-    }
-  }
-  &__descs-first-row {
-    display: flex;
-    margin-top: 77px;
-    @media (max-width: 920px) {
-      flex-wrap: wrap;
-    }
-  }
-  &__descs-second-row {
-    display: flex;
-    @media (max-width: 920px) {
-      flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    background-color: white;
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-content: center;
     }
   }
   &__desc-group {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: flex-start;
+    width: 20%;
     height: 240px;
+    margin-left: 4.7vw;
+    margin-right: 8.4vw;
+    margin-bottom: 40px;
     color: rgba(34, 53, 111, 1);
+    @media (max-width: 700px) {
+      margin-bottom: 80px;
+      width: 60%;
+      display: flex;
+      margin: 0 auto;
+    }
   }
   &__desc-title {
     display: flex;
-    justify-content: center;
-    margin-bottom: -30px;
+    margin-top: 57px;
+    margin-bottom: 28px;
     font-size: 28px;
+    width: 140%;
   }
   &__desc-text {
     display: flex;
-    width: 300px;
-    margin: 0 auto;
+    width: 120%;
+    margin-bottom: 72px;
+
     font-size: $small-font;
   }
   &__fact {
     margin-top: 40px;
     display: flex;
+    background-color: white;
     @media (max-width: 800px) {
       flex-direction: column;
     }
@@ -212,7 +266,7 @@
     span {
       color: #62d0df;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1050px) {
       padding-left: 0;
       font-size: 20px;
       padding-bottom: 10px;
@@ -226,25 +280,4 @@
       padding-left: 0;
     }
   }
-}
-.pink {
-  background-color: #ffe2de;
-}
-.green {
-  background-color: #c4e769;
-}
-.blue {
-  background-color: #62d0df;
-}
-.dark-blue {
-  background-color: #0052c1;
-}
-.deep-blue {
-  background-color: #22356f;
-}
-.gray {
-  background-color: #dee1ff;
-}
-.purple {
-  background-color: #8f00ff;
 }

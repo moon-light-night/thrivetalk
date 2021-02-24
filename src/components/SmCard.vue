@@ -1,16 +1,10 @@
 <template>
   <div class="about__header-cards">
-    <div
-      class="about__header-card"
-      v-for="(card, index) in smCards"
-      :key="index"
-    >
-      <ul class="about__header-list">
-        <li class="about__header-list-line"></li>
-        <li class="about__header-list-li">
-          <img src="@/assets/orange-ell.png" />{{ smCards[index] }}
-        </li>
-      </ul>
+    <div class="about__header-card" v-for="(card, i) in smCards" :key="i">
+      <div class="about__card-wrap">
+        <img src="@/assets/orange-ell.png" />
+        <p>{{ smCards[i] }}</p>
+      </div>
     </div>
   </div>
 </template>

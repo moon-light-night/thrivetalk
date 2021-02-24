@@ -16,108 +16,11 @@
         <SmCard></SmCard>
       </div>
     </div>
-
-    <div class="about__cards">
-      <div class="about__cards-first-row">
-        <div class="about__card pink">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Physical Health
-            </li>
-          </ul>
-        </div>
-        <div class="about__card green">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Mental Health
-            </li>
-          </ul>
-        </div>
-        <div class="about__card gray">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Nutrition
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="about__cards-second-row">
-        <div class="about__card blue">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Gymnast
-            </li>
-          </ul>
-        </div>
-        <div class="about__card deep-blue">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Crossfit
-            </li>
-          </ul>
-        </div>
-        <div class="about__card purple">
-          <ul class="about__card-list">
-            <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">
-              <img src="@/assets/orange-ell.png" />Aerobics
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div>
+      <BgCard></BgCard>
     </div>
-    <div class="about__descs">
-      <div class="about__descs-first-row">
-        <div class="about__desc-group">
-          <div class="about__desc-title">Nutritional Plans</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-        <div class="about__desc-group">
-          <div class="about__desc-title">Weight Loss</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-        <div class="about__desc-group">
-          <div class="about__desc-title">Mental Peace</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-      </div>
-      <div class="about__descs-second-row">
-        <div class="about__desc-group">
-          <div class="about__desc-title">Home Training</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-        <div class="about__desc-group">
-          <div class="about__desc-title">Work/Life Balance</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-        <div class="about__desc-group">
-          <div class="about__desc-title">Cardio</div>
-          <div class="about__desc-text">
-            Nutritional Facts on some shitty things that you don’t care about
-            and even we don’t , I need to replace this copy.
-          </div>
-        </div>
-      </div>
+    <div>
+      <DescCard></DescCard>
     </div>
     <div class="about__fact">
       <div class="about__fact-img"><img src="@/assets/linkedin.png" /></div>
@@ -137,9 +40,13 @@
 
 <script>
 import SmCard from './SmCard.vue'
+import BgCard from './BgCard.vue'
+import DescCard from './DescCard.vue'
 export default {
   components: {
     SmCard,
+    BgCard,
+    DescCard,
   },
 }
 </script>

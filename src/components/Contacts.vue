@@ -1,7 +1,7 @@
 <template>
   <div class="contacts">
     <div class="contacts__header">
-      <div class="contacts__header-body deep-blue">
+      <div class="contacts__header-body">
         <div class="contacts__header-body-wrap">
           <div class="contacts__header-uptitle">CONTACT US</div>
           <div class="contacts__header-title">Ready. Set. Smile</div>
