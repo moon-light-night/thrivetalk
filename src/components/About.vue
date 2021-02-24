@@ -12,42 +12,8 @@
         </div>
       </div>
       <p class="about__header-text">WE CAN HELP YOU WITH</p>
-      <div class="about__header-cards">
-        <div class="about__header-card">
-          <ul class="about__header-list">
-            <li class="about__header-list-line"></li>
-            <li class="about__header-list-li">
-              <img src="@/assets/orange-ell.png" />Weight Lifting
-            </li>
-          </ul>
-        </div>
-
-        <div class="about__header-card">
-          <ul class="about__header-list">
-            <li class="about__header-list-line"></li>
-            <li class="about__header-list-li">
-              <img src="@/assets/orange-ell.png" />Running & Spinning
-            </li>
-          </ul>
-        </div>
-
-        <div class="about__header-card">
-          <ul class="about__header-list">
-            <li class="about__header-list-line"></li>
-            <li class="about__header-list-li">
-              <img src="@/assets/orange-ell.png" />Pumping Iron
-            </li>
-          </ul>
-        </div>
-
-        <div class="about__header-card">
-          <ul class="about__header-list">
-            <li class="about__header-list-line"></li>
-            <li class="about__header-list-li">
-              <img src="@/assets/orange-ell.png" />Pumping Iron
-            </li>
-          </ul>
-        </div>
+      <div>
+        <SmCard></SmCard>
       </div>
     </div>
 
@@ -168,3 +134,12 @@
     </div>
   </div>
 </template>
+
+<script>
+import SmCard from './SmCard.vue'
+export default {
+  components: {
+    SmCard,
+  },
+}
+</script>
