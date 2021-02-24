@@ -27,6 +27,7 @@
         </div>
       </div>
       <div class="header__img"><img src="@/assets/header-img.png" /></div>
+      <div class="header__img--empty"><img src="@/assets/emptyrec.png" /></div>
     </div>
     <div class="header__suggest">
       <div class="header__suggest-content">
