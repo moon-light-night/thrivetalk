@@ -1,16 +1,5 @@
 @import '@/profile/variables.scss';
 
-ul {
-  padding-left: 0;
-}
-.straw-img {
-  background: url('~@/assets/straw.png');
-}
-img {
-  padding: 0;
-  margin: 0;
-}
-
 .about {
   &__header-info {
     display: flex;
@@ -21,7 +10,7 @@ img {
     }
   }
   &__header-name {
-    padding-left: 100px;
+    padding-left: 8vw;
     position: absolute;
     @media (max-width: 900px) {
       position: relative;
@@ -35,8 +24,9 @@ img {
     line-height: 34px;
     letter-spacing: 0.005em;
     margin: 0 auto;
-    @media (max-width: 500px) {
-      width: 100%;
+    @media (max-width: 600px) {
+      width: 80%;
+      text-align: center;
     }
   }
   &__header-text {
@@ -57,8 +47,20 @@ img {
   }
   &__header-card {
     width: 100%;
-    height: 250px;
+    height: 360px;
     color: white;
+    &:nth-child(1) {
+      background-color: $pink;
+    }
+    &:nth-child(2) {
+      background-color: $green;
+    }
+    &:nth-child(3) {
+      background-color: $blue;
+    }
+    &:nth-child(4) {
+      background-color: $dark-blue;
+    }
   }
   &__list {
     padding-left: 0;
@@ -67,21 +69,29 @@ img {
     flex-direction: column;
     align-items: center;
   }
-  &__header-list-li--empty {
+  &__header-list-line {
     width: 80%;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     margin: 0 auto;
+    padding-top: 72px;
   }
   &__header-list-li {
-    width: 230px;
+    width: 80%;
     display: flex;
     justify-content: center;
     font-size: $big-font;
     margin: 0 auto;
+    padding-top: 30px;
+    img {
+      width: 9px;
+      height: 9px;
+      margin-top: 20px;
+      margin-right: 20px;
+    }
   }
   &__cards-first-row {
     display: flex;
-    @media (max-width: 650px) {
+    @media (max-width: 1000px) {
       flex-wrap: wrap;
     }
   }
@@ -96,14 +106,33 @@ img {
     margin: 0 auto;
   }
   &__card-list-li {
-    padding-left: 50px;
+    padding-left: 34px;
     font-size: $big-font;
     color: white;
-    width: 157px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 9px;
+      height: 9px;
+      margin-top: 20px;
+      margin-right: 20px;
+    }
+    @media (max-width: 1000px) {
+      margin: 0 auto;
+    }
+  }
+  &__card-list {
+    width: 340px;
+    margin: 0 auto;
+    @media (max-width: 1000px) {
+      width: 100%;
+      margin: 0 auto;
+    }
   }
   &__cards-second-row {
     display: flex;
-    @media (max-width: 650px) {
+    @media (max-width: 1000px) {
       flex-wrap: wrap;
     }
   }
@@ -154,6 +183,7 @@ img {
     justify-content: space-around;
     color: rgba(34, 53, 111, 1);
     margin-bottom: 30px;
+    margin-left: 8vw;
   }
   &__fact-img {
     @media (max-width: 920px) {
@@ -196,4 +226,25 @@ img {
       padding-left: 0;
     }
   }
+}
+.pink {
+  background-color: #ffe2de;
+}
+.green {
+  background-color: #c4e769;
+}
+.blue {
+  background-color: #62d0df;
+}
+.dark-blue {
+  background-color: #0052c1;
+}
+.deep-blue {
+  background-color: #22356f;
+}
+.gray {
+  background-color: #dee1ff;
+}
+.purple {
+  background-color: #8f00ff;
 }

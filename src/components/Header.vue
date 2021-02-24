@@ -29,23 +29,5 @@
       <div class="header__img"><img src="@/assets/header-img.png" /></div>
       <div class="header__img--empty"><img src="@/assets/emptyrec.png" /></div>
     </div>
-    <div class="header__suggest">
-      <div class="header__suggest-content">
-        <div class="header__suggest-title">Why Thrive?</div>
-        <div class="header__suggest-text">
-          <b
-            >Want to improve your well-being from the comfort of your own couch?
-            Are you having trouble finding the right therapist?</b
-          >
-          Here at ThriveTalk, our licensed therapists provide the same quality
-          care you would get in office from anywhere you can access your laptop
-          or mobile phone. Become your best self with ThriveTalk. Start therapy
-          now with a licensed therapist!
-        </div>
-      </div>
-      <div class="header__suggest-img">
-        <img src="@/assets/header-girl.png" alt="img" />
-      </div>
-    </div>
   </div>
 </template>

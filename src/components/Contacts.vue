@@ -2,13 +2,15 @@
   <div class="contacts">
     <div class="contacts__header">
       <div class="contacts__header-body deep-blue">
-        <div class="contacts__header-uptitle">CONTACT US</div>
-        <div class="contacts__header-title">Ready. Set. Smile</div>
-        <div class="contacts__header-text">
-          Take the free online assessment to see if you are a candidate and get
-          started on your journey.
+        <div class="contacts__header-body-wrap">
+          <div class="contacts__header-uptitle">CONTACT US</div>
+          <div class="contacts__header-title">Ready. Set. Smile</div>
+          <div class="contacts__header-text">
+            Take the free online assessment to see if you are a candidate and
+            get started on your journey.
+          </div>
+          <div class="contacts__header-footer">GET HELP NOW</div>
         </div>
-        <div class="contacts__header-footer">GET HELP NOW</div>
       </div>
       <div class="contacts__header-img-wrap">
         <img

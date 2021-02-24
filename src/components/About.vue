@@ -13,53 +13,68 @@
       </div>
       <p class="about__header-text">WE CAN HELP YOU WITH</p>
       <div class="about__header-cards">
-        <div class="about__header-card pink">
+        <div class="about__header-card">
           <ul class="about__header-list">
-            <li class="about__header-list-li--empty"></li>
-            <li class="about__header-list-li">Weight Lifting</li>
+            <li class="about__header-list-line"></li>
+            <li class="about__header-list-li">
+              <img src="@/assets/orange-ell.png" />Weight Lifting
+            </li>
           </ul>
         </div>
 
-        <div class="about__header-card green">
+        <div class="about__header-card">
           <ul class="about__header-list">
-            <li class="about__header-list-li--empty"></li>
-            <li class="about__header-list-li">Running & Spinning</li>
+            <li class="about__header-list-line"></li>
+            <li class="about__header-list-li">
+              <img src="@/assets/orange-ell.png" />Running & Spinning
+            </li>
           </ul>
         </div>
 
-        <div class="about__header-card blue">
+        <div class="about__header-card">
           <ul class="about__header-list">
-            <li class="about__header-list-li--empty"></li>
-            <li class="about__header-list-li">Pumping Iron</li>
+            <li class="about__header-list-line"></li>
+            <li class="about__header-list-li">
+              <img src="@/assets/orange-ell.png" />Pumping Iron
+            </li>
           </ul>
         </div>
 
-        <div class="about__header-card dark-blue">
+        <div class="about__header-card">
           <ul class="about__header-list">
-            <li class="about__header-list-li--empty"></li>
-            <li class="about__header-list-li">Pumping Iron</li>
+            <li class="about__header-list-line"></li>
+            <li class="about__header-list-li">
+              <img src="@/assets/orange-ell.png" />Pumping Iron
+            </li>
           </ul>
         </div>
       </div>
     </div>
+
     <div class="about__cards">
       <div class="about__cards-first-row">
-        <div class="about__card deep-blue">
+        <div class="about__card pink">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Physical Health</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Physical Health
+            </li>
           </ul>
         </div>
-        <div class="about__card dark-blue">
+        <div class="about__card green">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Mental Health</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Mental Health
+            </li>
           </ul>
         </div>
-        <div class="about__card straw-img">
+        <div class="about__card gray">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Nutrition</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Nutrition
+            </li>
           </ul>
         </div>
       </div>
@@ -67,19 +82,25 @@
         <div class="about__card blue">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Gymnastics</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Gymnast
+            </li>
           </ul>
         </div>
-        <div class="about__card gray">
+        <div class="about__card deep-blue">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Crossfit</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Crossfit
+            </li>
           </ul>
         </div>
         <div class="about__card purple">
           <ul class="about__card-list">
             <li class="about__card-list-li--empty"></li>
-            <li class="about__card-list-li">Aerobics</li>
+            <li class="about__card-list-li">
+              <img src="@/assets/orange-ell.png" />Aerobics
+            </li>
           </ul>
         </div>
       </div>
