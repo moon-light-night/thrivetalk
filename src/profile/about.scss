@@ -100,7 +100,7 @@
   }
   &__card {
     width: 33.33%;
-    height: 420px;
+    height: 480px;
     @media (max-width: 600px) {
       width: 100%;
     }
@@ -133,29 +133,21 @@
     width: 80%;
     align-items: center;
     margin: 72px auto;
-    img {
-      width: 9px;
-      height: 9px;
-      margin-right: 10px;
-      margin-top: 30px;
-      display: flex;
-      align-self: flex-start;
-    }
     p {
       color: white;
       font-size: 32px;
       margin-top: 10px;
       width: 210px;
     }
+    &::before {
+      content: '\2022';
+      color: rgba(233, 183, 48, 1);
+      margin-right: 10px;
+      margin-top: 20px;
+      display: flex;
+      align-self: flex-start;
+    }
   }
-  &__card-list-li--empty {
-    padding-top: 80px;
-    width: 80%;
-    border-bottom: 2px solid white;
-    margin: 0 auto;
-  }
-
-  ///////////////////////////////////////////////
   &__card-list-li {
     padding-left: 34px;
     font-size: $big-font;
