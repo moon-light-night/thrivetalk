@@ -94,14 +94,14 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    @media (max-width: 600px) {
+    @media (max-width: 720px) {
       flex-direction: column;
     }
   }
   &__card {
     width: 33.33%;
     height: 480px;
-    @media (max-width: 600px) {
+    @media (max-width: 720px) {
       width: 100%;
     }
     &:nth-child(1) {
@@ -139,11 +139,11 @@
       margin-top: 10px;
       width: 210px;
     }
-    &::before {
+    &:first-child::before {
       content: '\2022';
       color: rgba(233, 183, 48, 1);
       margin-right: 10px;
-      margin-top: 20px;
+      font-size: 40px;
       display: flex;
       align-self: flex-start;
     }
